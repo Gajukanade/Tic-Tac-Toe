@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    color: gold;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    /* border-radius: 1rem; */
+    border-radius: 3px;
+    border : none;
+    background-color: rgb(251, 251, 251);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 8vmin;
+    color: rgb(78, 78, 78);
+
+}
+
+/* .mainBox{
+    padding: 32px;
+} */
+
+.reset-Btn{
+    background-color: gold;
+    font-size: larger;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.newGame{
+    background-color: gold;
+    font-size: larger;
+    padding: 8px;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin-top: 32px;
+
+}
+.msg{
+    /* margin-top: 32px; */
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.mainBox h1{
+    margin-top: 18px;
+}
+.hide{
+    display: none;
+}
